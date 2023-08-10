@@ -1,0 +1,51 @@
+html{
+    font-family: 'Public Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+}
+
+.obras{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.obras .item{
+    width: 335px;
+    height: 432px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    position: relative;
+}
+
+.item .informacoes{
+    position: absolute;
+    margin-left: 19px;
+    margin-bottom: 43px;
+
+    color: #fff;
+}
+
+.titulo{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.subtitulo{
+    font-weight: 300;
+    font-size: 17px;
+}
